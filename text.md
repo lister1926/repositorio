@@ -22,4 +22,14 @@ $ git config user.name      Sale tu usuario
 
 
 
+-Inicializar un repositorio local
+git init
+
+-El estado
+git status       commit es como el checkpoint
+
+-Añadir archivos al staging area
+git add -A        todos los archivos que sufrieron modificaciones
+git add ./index.html             no es eficiente
+
 
